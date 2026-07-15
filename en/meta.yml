@@ -14,7 +14,7 @@ steps:
   - title: Add obstacles
     completion:
       - internal
-  - title: Add scoring and game over
+  - title: Test and tune your game
     completion:
       - external
   - title: Challenge!

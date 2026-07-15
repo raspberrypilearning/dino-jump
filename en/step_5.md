@@ -1,45 +1,29 @@
-## Add scoring and game over
+## Test and tune your game
 
-Make the game more exciting by tracking how long the player survives and ending the game when the character crashes.
-
-> [!TASK]
->
-> Create a variable called `score`{:class="block3variables"}.
+Check that the scripts work together, then adjust the difficulty.
 
 > [!TASK]
 >
-> Add a script to the Stage that resets the score when the green flag is clicked.
+> Click the green flag and check that:
 >
-> ```blocks3
-> when green flag clicked
-> set [score v] to (0)
-> ```
+> - the score starts at `0`
+> - animated obstacles appear after one second and move from right to left
+> - the time between obstacles changes
+> - avoiding an obstacle adds `1` to the score
+> - touching an obstacle plays `Bite` and stops the game
 
 > [!TASK]
 >
-> Add a script to the Stage so the score increases every second.
->
-> ```blocks3
-> when green flag clicked
-> forever
-> wait (1) seconds
-> change [score v] by (1)
-> end
-> ```
+> Adjust the starting value of `speed`{:class="block3variables"} in the obstacle's green flag script. A more negative number, such as `-7`, makes every clone move faster.
 
 > [!TASK]
 >
-> Add a script to the character sprite so the game stops when it touches an obstacle. Choose your obstacle sprite's name from the menu.
->
-> ```blocks3
-> when green flag clicked
-> forever
-> if <touching [Obstacle v]?> then
-> stop [all v]
-> end
-> end
-> ```
+> Adjust the two numbers in `pick random (0.8) to (2.4)`{:class="block3operators"}. Smaller numbers create obstacles more often; larger numbers leave wider gaps.
 
 > [!TASK]
 >
-> Test your project. Your score should increase and the game should stop when the character collides with the obstacle.
+> If the obstacle does not meet the character at the right height, adjust its starting `y` position. Keep its starting `x` position beyond the right edge so clones do not suddenly appear on the Stage.
+
+> [!TASK]
+>
+> Test again until the game is challenging but still possible to play.

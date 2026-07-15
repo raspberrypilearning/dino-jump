@@ -19,6 +19,7 @@ en/
 │   ├── banner.png
 │   ├── delete-sprite.png
 │   ├── make-a-variable.png
+│   ├── sounds_tab.png
 │   ├── sprite-choose.png
 │   └── variable-checkbox.png
 ├── resources/
