@@ -1,4 +1,4 @@
-## Make it your own
+## Challenge
 
 Take your game further by changing its look and behaviour.
 

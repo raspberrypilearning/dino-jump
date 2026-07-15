@@ -12,10 +12,10 @@ steps:
       - engaged
   - title: Make the dinosaur jump
   - title: Add obstacles
-  - title: Add scoring and game over
     completion:
       - internal
-  - title: Make it your own
-    challenge: true
+  - title: Add scoring and game over
     completion:
       - external
+  - title: Challenge!
+    challenge: true
