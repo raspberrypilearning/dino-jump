@@ -1,6 +1,6 @@
 ## Add scoring and game over
 
-Make the game more exciting by tracking how long the player survives and ending the game when the dinosaur crashes.
+Make the game more exciting by tracking how long the player survives and ending the game when the character crashes.
 
 > [!TASK]
 >
@@ -29,7 +29,7 @@ Make the game more exciting by tracking how long the player survives and ending 
 
 > [!TASK]
 >
-> Add a script to the dinosaur sprite so the game stops when it touches an obstacle. Choose your obstacle sprite's name from the menu.
+> Add a script to the character sprite so the game stops when it touches an obstacle. Choose your obstacle sprite's name from the menu.
 >
 > ```blocks3
 > when green flag clicked
@@ -42,4 +42,4 @@ Make the game more exciting by tracking how long the player survives and ending 
 
 > [!TASK]
 >
-> Test your project. Your score should increase and the game should stop when the dinosaur collides with the obstacle.
+> Test your project. Your score should increase and the game should stop when the character collides with the obstacle.

@@ -4,7 +4,7 @@ Take your game further by changing its look and behaviour.
 
 > [!TASK]
 >
-> Try changing the dinosaur sprite, the obstacle, or the backdrop so your game feels unique.
+> Try changing the character sprite, the obstacle, or the backdrop so your game feels unique.
 
 > [!TASK]
 >
@@ -12,7 +12,7 @@ Take your game further by changing its look and behaviour.
 
 > [!TASK]
 >
-> Add a sound or animation when the dinosaur jumps or crashes.
+> Add a sound or animation when the character jumps or crashes.
 
 > [!TASK]
 >

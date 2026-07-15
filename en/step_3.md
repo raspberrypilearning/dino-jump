@@ -1,6 +1,6 @@
-## Make the dinosaur jump
+## Make the character jump
 
-Make the dinosaur jump up and land back in the same place.
+Make the character jump up and land back in the same place.
 
 > [!TASK]
 >
@@ -8,7 +8,7 @@ Make the dinosaur jump up and land back in the same place.
 
 > [!TASK]
 >
-> On the dinosaur sprite, update the green flag script so the jump height is reset when the game starts.
+> On the character sprite, update the green flag script so the jump height is reset when the game starts.
 >
 > ```blocks3
 > when green flag clicked
@@ -21,7 +21,7 @@ Make the dinosaur jump up and land back in the same place.
 
 > [!TASK]
 >
-> Add a new script to the dinosaur sprite so it jumps when the player presses the space key.
+> Add a new script to the character sprite so it jumps when the player presses the space key.
 >
 > ```blocks3
 > when [space v] key pressed
@@ -31,7 +31,7 @@ Make the dinosaur jump up and land back in the same place.
 
 > [!TASK]
 >
-> Test your project. The dinosaur should jump up and come back down when you press the space key.
+> Test your project. The character should jump up and come back down when you press the space key.
 
 > [!TIP]
 >

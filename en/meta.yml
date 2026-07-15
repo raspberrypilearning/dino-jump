@@ -1,16 +1,16 @@
 title: Dino Jump
 hero_image: images/banner.png
 description: >-
-  Build a fast-paced jump game where a dinosaur leaps over obstacles and tries
+  Build a fast-paced jump game where a character leaps over obstacles and tries
   to survive as long as possible.
 listed: false
 pdf: false
 steps:
   - title: What you will make
-  - title: Add the dinosaur and backdrop
+  - title: Add the character and backdrop
     completion:
       - engaged
-  - title: Make the dinosaur jump
+  - title: Make the character jump
   - title: Add obstacles
     completion:
       - internal

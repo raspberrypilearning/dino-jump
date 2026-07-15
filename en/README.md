@@ -36,8 +36,8 @@ en/
 The tutorials guide learners through building a simple Dino Jump game in Scratch, including:
 
 - setting up the starting project
-- adding a dinosaur sprite and backdrop
-- making the dinosaur jump
+- adding a character sprite and backdrop
+- making the character jump
 - adding obstacles
 - adding scoring and a game-over condition
 - customising and sharing the finished game

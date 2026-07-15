@@ -1,6 +1,6 @@
-## Add the dinosaur and backdrop
+## Add the character and backdrop
 
-Start a fresh Scratch project and add a dinosaur sprite and a backdrop.
+Start a fresh Scratch project and add a character sprite and a backdrop.
 
 > [!TASK]
 >
@@ -12,7 +12,7 @@ Start a fresh Scratch project and add a dinosaur sprite and a backdrop.
 
 > [!TASK]
 >
-> Add a dinosaur sprite from the Scratch sprite library. If you cannot find a dinosaur, choose another running character.
+> Add a character sprite from the Scratch sprite library. Choose a character that looks ready to run and jump.
 
 > [!TASK]
 >
@@ -20,7 +20,7 @@ Start a fresh Scratch project and add a dinosaur sprite and a backdrop.
 
 > [!TASK]
 >
-> Place the dinosaur near the bottom of the stage and make it face the right.
+> Place the character near the bottom of the stage and make it face the right.
 >
 > ```blocks3
 > when green flag clicked
@@ -32,5 +32,4 @@ Start a fresh Scratch project and add a dinosaur sprite and a backdrop.
 
 > [!TASK]
 >
-> Test your project. The dinosaur should appear in the same place each time you click the green flag.
-
+> Test your project. The character should appear in the same place each time you click the green flag.

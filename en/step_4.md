@@ -1,10 +1,10 @@
 ## Add obstacles
 
-Add an obstacle so your dinosaur has something to avoid.
+Add an obstacle so your character has something to avoid.
 
 > [!TASK]
 >
-> Choose a cactus or rock sprite from the Scratch library.
+> Choose a sprite from the Scratch library. The example here uses `bear-walking` but you can pick anything you like.
 
 > [!TASK]
 >
