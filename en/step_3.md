@@ -4,7 +4,11 @@ Make the character jump up and land back in the same place.
 
 > [!TASK]
 >
-> Create a variable called `jump height`{:class="block3variables"}.
+> Open the **Variables** palette, select **Make a Variable**, and create a variable called `jump height`{:class="block3variables"}. Tick its checkbox so you can see its value on the Stage.
+>
+> ![The Make a Variable button in the Variables palette.](images/make-a-variable.png)
+>
+> ![A ticked variable checkbox showing the value on the Stage.](images/variable-checkbox.png)
 
 > [!TASK]
 >

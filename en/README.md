@@ -15,7 +15,12 @@ en/
 │       └── project_config.yml
 ├── images/
 │   ├── .keep
-│   └── banner.png
+│   ├── backdrop-choose.png
+│   ├── banner.png
+│   ├── delete-sprite.png
+│   ├── make-a-variable.png
+│   ├── sprite-choose.png
+│   └── variable-checkbox.png
 ├── resources/
 │   └── .keep
 ├── solutions/

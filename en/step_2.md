@@ -9,14 +9,20 @@ Start a fresh Scratch project and add a character sprite and a backdrop.
 > [!TASK]
 >
 > Delete the cat sprite.
+>
+> ![Deleting a sprite with the bin icon on its thumbnail.](images/delete-sprite.png)
 
 > [!TASK]
 >
-> Add a character sprite from the Scratch sprite library. Choose a character that looks ready to run and jump.
+> Add a character sprite with **Choose a Sprite**. Choose a character that looks ready to run and jump.
+>
+> ![The Choose a Sprite button in the bottom-right of the Scratch editor.](images/sprite-choose.png)
 
 > [!TASK]
 >
-> Choose a backdrop for your game, such as a desert or jungle scene.
+> Choose a backdrop for your game with **Choose a Backdrop**, such as a desert or jungle scene.
+>
+> ![The Choose a Backdrop button in the bottom-right of the Scratch editor.](images/backdrop-choose.png)
 
 > [!TASK]
 >
