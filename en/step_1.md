@@ -1,6 +1,6 @@
 ## What you will make
 
-You're going to build a **Dino Jump** game: a game where a character jumps over obstacles, and tries to survive for as long as possible. In this example, Giga is shown jupming over bears, but yours can look however you like!
+You're going to build a **Dino Jump** game: a game where a character jumps over obstacles, and tries to survive for as long as possible. In this example, Giga is shown jumping over bears, but yours can look however you like!
 
 > [!NOPRINT]
 >
