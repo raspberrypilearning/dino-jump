@@ -4,11 +4,11 @@ Use one hidden obstacle sprite to create clones that move across the Stage. Each
 
 > [!TASK]
 >
-> Add the `Bear-walking` sprite from the Scratch library. Its costumes will make each obstacle look as though it is walking.
+> Choose any sprite to be an obstacle. This example uses `Bear-walking`, which has several costumes for a walking animation, but your obstacle can look however you like.
 
 > [!TASK]
 >
-> Select the `Bear-walking` sprite. Open the **Sounds** tab, choose **Choose a Sound**, and add the `Bite` sound.
+> Select your obstacle sprite. Open the **Sounds** tab, choose **Choose a Sound**, and add a collision sound. This example uses `Bite`, but you can choose any sound that fits your obstacle.
 >
 > ![The Sounds tab at the top-left of the Scratch editor.](images/sounds_tab.png)
 
@@ -20,7 +20,7 @@ Use one hidden obstacle sprite to create clones that move across the Stage. Each
 
 > [!TASK]
 >
-> Add this setup script to the `Bear-walking` sprite.
+> Add this setup script to your obstacle sprite.
 >
 > ```blocks3
 > when green flag clicked
@@ -32,7 +32,7 @@ Use one hidden obstacle sprite to create clones that move across the Stage. Each
 > hide
 > ```
 >
-> The negative `speed`{:class="block3variables"} will move obstacles to the left. The original bear starts just beyond the right edge and stays hidden because only its clones should appear.
+> The negative `speed`{:class="block3variables"} will move obstacles to the left. The original obstacle starts just beyond the right edge and stays hidden because only its clones should appear.
 
 > [!TASK]
 >
@@ -65,7 +65,7 @@ Use one hidden obstacle sprite to create clones that move across the Stage. Each
 > point in direction (-90)
 > ```
 >
-> Each clone appears at the original bear's position and faces left, ready to cross the Stage.
+> Each clone appears at the original obstacle's position and faces left, ready to cross the Stage.
 
 > [!TASK]
 >
@@ -81,11 +81,11 @@ Use one hidden obstacle sprite to create clones that move across the Stage. Each
 > +end
 > ```
 >
-> `next costume`{:class="block3looks"} animates the bear. Each loop moves it left by the value stored in `speed`{:class="block3variables"}.
+> `next costume`{:class="block3looks"} animates an obstacle with multiple costumes. Each loop moves the clone left by the value stored in `speed`{:class="block3variables"}.
 
 > [!TASK]
 >
-> Inside the `repeat until`{:class="block3control"} loop, check whether the obstacle is touching the character. Select your character sprite's name from the `touching`{:class="block3sensing"} menu; the example uses `Giga Walking`.
+> Inside the `repeat until`{:class="block3control"} loop, check whether the obstacle is touching the character. Select your character's name from the `touching`{:class="block3sensing"} menu and your collision sound from the `start sound`{:class="block3sound"} menu. The example uses `Giga Walking` and `Bite`.
 >
 > ```blocks3
 > when I start as a clone

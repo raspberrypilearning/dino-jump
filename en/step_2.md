@@ -14,13 +14,13 @@ Start a fresh Scratch project and add a character sprite and a backdrop.
 
 > [!TASK]
 >
-> Add a character sprite with **Choose a Sprite**. Choose a character that looks ready to run and jump.
+> Add any character with **Choose a Sprite**. This example uses `Giga Walking`, but your character can look however you like.
 >
 > ![The Choose a Sprite button in the bottom-right of the Scratch editor.](images/sprite-choose.png)
 
 > [!TASK]
 >
-> Choose a backdrop for your game with **Choose a Backdrop**, such as a desert or jungle scene.
+> Add any backdrop with **Choose a Backdrop**. This example uses `Desert`, but choose a setting that suits your game.
 >
 > ![The Choose a Backdrop button in the bottom-right of the Scratch editor.](images/backdrop-choose.png)
 
@@ -35,6 +35,8 @@ Start a fresh Scratch project and add a character sprite and a backdrop.
 > point in direction (90)
 > set size to (100) %
 > ```
+>
+> These values place the example character near the ground. Adjust the position and size if your character or backdrop is different.
 
 > [!TASK]
 >

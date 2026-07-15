@@ -10,7 +10,7 @@ Check that the scripts work together, then adjust the difficulty.
 > - animated obstacles appear after one second and move from right to left
 > - the time between obstacles changes
 > - avoiding an obstacle adds `1` to the score
-> - touching an obstacle plays `Bite` and stops the game
+> - touching an obstacle plays your collision sound and stops the game (the example uses `Bite`)
 
 > [!TASK]
 >

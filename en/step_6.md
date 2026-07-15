@@ -4,7 +4,7 @@ Take your game further by changing its look and behaviour.
 
 > [!TASK]
 >
-> Try changing the character sprite, the obstacle, or the backdrop so your game feels unique.
+> Personalise any choices you borrowed from the example. Your character, obstacle, and backdrop can all be different.
 
 > [!TASK]
 >
