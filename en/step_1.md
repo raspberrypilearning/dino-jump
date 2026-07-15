@@ -1,45 +1,20 @@
 ## What you will make
-OR
-## What you will do - change meta if you use this
 
-A brief description - one or two sentences. 
+You're going to build a **Dino Jump** game: a game where a character jumps over obstacles, and tries to survive for as long as possible. In this example, Giga is shown jupming over bears, but yours can look however you like!
 
---- print-only ---
+> [!NOPRINT]
+>
+> <div class="scratch-preview">
+>  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/1351632733/?autostart=false" frameborder="0"></iframe>
+> </div>
 
-![ALT TEXT](images/IMAGE.png)
+> [!PRINTONLY]
+>
+> ![The finished Dino Jump game.](images/banner.png)
 
---- /print-only ---
-
---- no-print ---
-
-[Editor embed](https://editor.raspberrypi.org/en/embed/viewer/project-slug)
-
---- /no-print ---
-
---- no-print ---
-
-Video embed
-
-<video width="640" height="360" controls>
-<source src="images/videoname.mp4" type="video/mp4">
-</video>
-
-Youtube embed 
-<html>
-<div style="position: relative; overflow: hidden; padding-top: 56.25%;">
-<iframe style="position: absolute; top: 0; left: 0; right: 0; width: 100%; height: 100%; border: none;" src="https://www.youtube.com/embed/XXXXXXXXX?rel=0&cc_load_policy=1" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share">
-</iframe>
-</div><br>
-</html>
-
-Scratch embed
-<div class="scratch-preview">
- <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/XXXXXXXXX/?autostart=false" frameborder="0"></iframe>
-</div>
-
---- /no-print ---
+You'll set up a character, make it jump, add moving obstacles, and track a score.
 
 ### You will need:
-- a
-- b
-- c
+
+- The Scratch editor
+- A new Scratch project
