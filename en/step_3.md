@@ -14,6 +14,8 @@ Make the character jump up and land back in the same place.
 >
 > On the character sprite, update the green flag script so the jump height is reset when the game starts.
 >
+> ![Giga Walking sprite.](images/Giga-Walk1.png){:width="100px" height="100px" style="object-fit: contain;"}
+>
 > ```blocks3
 > when green flag clicked
 > show
@@ -27,10 +29,12 @@ Make the character jump up and land back in the same place.
 >
 > Add a new script to the character sprite so it jumps when the player presses the space key.
 >
+> ![Giga Walking sprite.](images/Giga-Walk1.png){:width="100px" height="100px" style="object-fit: contain;"}
+>
 > ```blocks3
-> when [space v] key pressed
-> glide (0.3) secs to x: (-100) y: ((y position) + (jump height))
-> glide (0.7) secs to x: (-100) y: ((y position) - (jump height))
+> +when [space v] key pressed
+> +glide (0.3) secs to x: (-100) y: ((y position) + (jump height))
+> +glide (0.7) secs to x: (-100) y: ((y position) - (jump height))
 > ```
 
 > [!TASK]
@@ -39,4 +43,4 @@ Make the character jump up and land back in the same place.
 
 > [!TIP]
 >
-> Changing `jump height`{:class="block3variables"} later will make the jump higher or lower without rebuilding the whole script.
+> A **game state variable** stores a value your scripts can reuse. Keeping `jump height`{:class="block3variables"} in one place lets you tune the jump without rebuilding both glide blocks.

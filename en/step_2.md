@@ -28,15 +28,21 @@ Start a fresh Scratch project and add a character sprite and a backdrop.
 >
 > Place the character near the bottom of the stage and make it face the right.
 >
+> ![Giga Walking sprite.](images/Giga-Walk1.png){:width="100px" height="100px" style="object-fit: contain;"}
+>
 > ```blocks3
-> when green flag clicked
-> show
-> go to x: (-100) y: (-70)
-> point in direction (90)
-> set size to (100) %
+> +when green flag clicked
+> +show
+> +go to x: (-100) y: (-70)
+> +point in direction (90)
+> +set size to (100) %
 > ```
 >
 > These values place the example character near the ground. Adjust the position and size if your character or backdrop is different.
+
+> [!TIP]
+>
+> A **starting state** resets the game before play begins. Setting the character's position, direction, and size with the green flag makes every attempt begin the same way.
 
 > [!TASK]
 >

@@ -20,6 +20,10 @@ Check that the scripts work together, then adjust the difficulty.
 >
 > Adjust the two numbers in `pick random (0.8) to (2.4)`{:class="block3operators"}. Smaller numbers create obstacles more often; larger numbers leave wider gaps.
 
+> [!TIP]
+>
+> **Difficulty** comes from how much time the player has to react. Faster speed and shorter gaps make each jump decision more demanding.
+
 > [!TASK]
 >
 > If the obstacle does not meet the character at the right height, adjust its starting `y` position. Keep its starting `x` position beyond the right edge so clones do not suddenly appear on the Stage.

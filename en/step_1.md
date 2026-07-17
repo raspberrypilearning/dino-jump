@@ -1,6 +1,6 @@
 ## What you will make
 
-You're going to build a **Dino Jump** game: a game where a character jumps over obstacles and tries to survive for as long as possible. This example uses Giga, walking bears, and a desert backdrop, but your character, obstacles, and backdrop can look however you like!
+You're going to build a **Dino Jump** game: a game where a character jumps over obstacles and tries to survive for as long as possible. 
 
 > [!NOPRINT]
 >
@@ -12,7 +12,7 @@ You're going to build a **Dino Jump** game: a game where a character jumps over 
 >
 > ![The finished Dino Jump game.](images/banner.png)
 
-You'll set up a character, make it jump, add moving obstacles, and track a score.
+You'll set up a character, make it jump, add moving obstacles, and track a score. This example uses Giga, walking bears, and a desert backdrop, but your character, obstacles, and backdrop can look however you like!
 
 ### You will need:
 
