@@ -1,33 +1,100 @@
-## Test and tune your game
+## Make the obstacles move
 
-Check that the scripts work together, then adjust the difficulty.
-
-> [!TASK]
->
-> Click the green flag and check that:
->
-> - the score starts at `0`
-> - animated obstacles appear after one second and move from right to left
-> - the time between obstacles changes
-> - avoiding an obstacle adds `1` to the score
-> - touching an obstacle plays your collision sound and stops the game (the example uses `Bite`)
+Make lots of obstacles appear and move towards the character.
 
 > [!TASK]
 >
-> Adjust the starting value of `speed`{:class="block3variables"} in the obstacle's green flag script. A more negative number, such as `-7`, makes every clone move faster.
+> Extend the obstacle's green flag script with these blocks.
+>
+> ```blocks3
+> when green flag clicked
+> set rotation style [left-right v]
+> set size to (25) %
+> go to x: (280) y: (-85)
+> point in direction (-90)
+> +hide
+> +wait (1) seconds
+> +forever
+> +  create clone of (myself v)
+> +  wait (1) seconds
+> +end
+> ```
+>
+> A **clone** is a copy of a sprite. The original obstacle stays hidden so that only its copies appear.
 
 > [!TASK]
 >
-> Adjust the two numbers in `pick random (0.8) to (2.4)`{:class="block3operators"}. Smaller numbers create obstacles more often; larger numbers leave wider gaps.
-
-> [!TIP]
+> Replace the `wait (1) seconds`{:class="block3control"} block inside the forever loop with this block from the `Operators`{:class="block3operators"} menu:
 >
-> **Difficulty** comes from how much time the player has to react. Faster speed and shorter gaps make each jump decision more demanding.
-
-> [!TASK]
+> ```blocks3
+> wait (pick random (0.8) to (2.4)) seconds
+> ```
 >
-> If the obstacle does not meet the character at the right height, adjust its starting `y` position. Keep its starting `x` position beyond the right edge so clones do not suddenly appear on the Stage.
+> The first clone is made after one second. After that, clones are created at random intervals that you set.
 
 > [!TASK]
 >
-> Test again until the game is challenging but still possible to play.
+> Drag a `when I start as a clone`{:class="block3control"} block to prepare each new clone.
+>
+> ![Bear-walking sprite.](images/Bear-walk-a.png){:width="100px" height="100px" style="object-fit: contain;"}
+>
+> ```blocks3
+> +when I start as a clone
+> +show
+> ```
+
+> [!TASK]
+>
+> Open the `Variables`{:class="block3variables"} menu, select **Make a Variable**, and create a variable called `speed`{:class="block3variables"} for all sprites. Untick the checkbox beside `speed`{:class="block3variables"} so it is hidden on the Stage.
+>
+> ![The Make a Variable button in the Variables menu.](images/make-a-variable.png)
+>
+> Set `speed`{:class="block3variables"} in the obstacle's green flag script. A negative value makes the clones move to the left.
+>
+> ```blocks3
+> when green flag clicked
+> set rotation style [left-right v]
+> +set [speed v] to (-5)
+> set size to (25) %
+> go to x: (280) y: (-85)
+> point in direction (-90)
+> hide
+> wait (1) seconds
+> forever
+>   create clone of (myself v)
+>   wait (pick random (0.8) to (2.4)) seconds
+> end
+> ```
+
+> [!TASK]
+>
+> Make each clone move until it passes the left side of the Stage. Drag in a `repeat until`{:class="block3control"} block, then add the `<`{:class="block3operators"} block from the `Operators`{:class="block3operators"} menu. Place `x position`{:class="block3motion"} on its left side.
+>
+> ```blocks3
+> when I start as a clone
+> show
+> +repeat until <(x position) < (-200)>
+> +  change x by (speed)
+> +end
+> +delete this clone
+> ```
+>
+> `delete this clone`{:class="block3control"} removes each copy after it leaves the Stage so that clones do not build up.
+
+> [!TASK]
+>
+> Add `next costume`{:class="block3looks"} inside the loop to animate the obstacle as it moves.
+>
+> ```blocks3
+> when I start as a clone
+> show
+> repeat until <(x position) < (-200)>
+> +  next costume
+>   change x by (speed)
+> end
+> delete this clone
+> ```
+
+> [!TASK]
+>
+> **Test your project.** Obstacles should appear at different times and move from right to left.

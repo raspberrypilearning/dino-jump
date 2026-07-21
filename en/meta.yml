@@ -12,8 +12,10 @@ steps:
       - engaged
   - title: Make the character jump
   - title: Add obstacles
+  - title: Make the obstacles move
     completion:
       - internal
+  - title: Detect collisions and keep score
   - title: Test and tune your game
     completion:
       - external

@@ -34,7 +34,9 @@ en/
 ├── step_3.md
 ├── step_4.md
 ├── step_5.md
-└── step_6.md
+├── step_6.md
+├── step_7.md
+└── step_8.md
 ```
 
 ## What is in this project?
