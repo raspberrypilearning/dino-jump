@@ -1,14 +1,23 @@
-title: Project title in sentence case
+title: Dino Jump
 hero_image: images/banner.png
-description: A short description of the project
+description: >-
+  Build a fast-paced jump game where a character leaps over obstacles and tries
+  to survive as long as possible.
 listed: false
 pdf: false
 steps:
   - title: What you will make
-  - title: Step title
+  - title: Add the character and backdrop
     completion:
-      - engaged      
-  - title: Challenge
-    challenge: true
+      - engaged
+  - title: Make the character jump
+  - title: Add obstacles
+  - title: Make the obstacles move
+    completion:
+      - internal
+  - title: Detect collisions and keep score
+  - title: Test and tune your game
     completion:
       - external
+  - title: Challenge!
+    challenge: true
