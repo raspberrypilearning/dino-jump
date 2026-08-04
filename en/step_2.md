@@ -14,7 +14,7 @@ Start a fresh Scratch project and add a character sprite and a backdrop.
 
 > [!TASK]
 >
-> Add any character with **Choose a Sprite**. This example uses `Giga Walking`, but your character can look however you like.
+> Add any character with **Choose a Sprite**. This example uses `Giga Walking`, but you can choose how you would like your character to look.
 >
 > ![The Choose a Sprite button in the bottom-right of the Scratch editor.](images/sprite-choose.png)
 
