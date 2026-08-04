@@ -1,6 +1,6 @@
 ## What you will make
 
-Create a **Dino Jump** game where a character jumps over obstacles.
+Build a **Dino Jump** game where a character jumps over obstacles.
 
 > [!NOPRINT]
 >
