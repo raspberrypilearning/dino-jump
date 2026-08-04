@@ -30,7 +30,7 @@ Make lots of obstacles appear and move towards the character.
 > wait (pick random (0.8) to (2.4)) seconds
 > ```
 >
-> The first clone is made after one second. After that, clones are created at random intervals that you set.
+> The first clone is made after one second. After that, clones are created at random intervals that you choose.
 
 > [!TASK]
 >
