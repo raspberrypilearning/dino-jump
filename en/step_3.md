@@ -27,7 +27,7 @@ Make the character jump up and land back in the same place.
 > +glide (0.7) secs to x: (-100) y: (-70)
 > ```
 >
-> The final `x` and `y` values must match the character's starting position in the green flag script.
+> The final `x` and `y` values must be the same as the character's starting position in the green flag script.
 
 > [!TASK]
 >
