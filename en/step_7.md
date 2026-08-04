@@ -1,6 +1,6 @@
 ## Test and tune your game
 
-Check that the blocks work together, then adjust the difficulty.
+Check that the blocks work together, then change the difficulty so the game is easier or harder.
 
 > [!TASK]
 >
@@ -18,7 +18,7 @@ Check that the blocks work together, then adjust the difficulty.
 
 > [!TASK]
 >
-> Adjust the two numbers in `pick random (0.8) to (2.4)`{:class="block3operators"}. Smaller numbers create obstacles more often; larger numbers leave wider gaps.
+> Adjust the two numbers in `pick random (0.8) to (2.4)`{:class="block3operators"}. Smaller numbers create obstacles more often, and larger numbers leave wider gaps.
 
 > [!TIP]
 >
@@ -30,4 +30,4 @@ Check that the blocks work together, then adjust the difficulty.
 
 > [!TASK]
 >
-> **Test again** until the game is challenging but still possible to play.
+> **Test again** until the game is hard but you are still able to play it.
