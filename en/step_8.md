@@ -8,7 +8,7 @@ Take your game further by changing its look and behaviour.
 
 > [!TASK]
 >
-> Make the game harder by making the obstacle move faster as `score`{:class="block3variables"} increases.
+> Make the game harder by making the obstacle move faster as the `score`{:class="block3variables"} increases.
 
 > [!TASK]
 >
