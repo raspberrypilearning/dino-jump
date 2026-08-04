@@ -4,7 +4,7 @@ Create an obstacle sprite that your character needs to jump over.
 
 > [!TASK]
 >
-> Choose any sprite to be an obstacle. This example uses `Bear-walking`, which has several costumes for a walking animation, but your obstacle can look however you like.
+> Choose any sprite to be an obstacle. This example uses `Bear-walking`, which has several costumes for a walking animation. You can choose your obstacle and what it looks like.
 
 > [!TASK]
 >
@@ -20,4 +20,4 @@ Create an obstacle sprite that your character needs to jump over.
 > +point in direction (-90)
 > ```
 >
-> The example position places the obstacle just beyond the right edge of the Stage. Change the `y` position if your obstacle does not sit on the ground.
+> The example position puts the obstacle just beyond the right edge of the Stage. Change the `y` position if your obstacle does not sit on the ground.
