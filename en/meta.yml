@@ -19,5 +19,5 @@ steps:
   - title: Test and tune your game
     completion:
       - external
-  - title: Challenge!
+  - title: Challenge
     challenge: true
