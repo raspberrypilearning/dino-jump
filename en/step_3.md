@@ -6,7 +6,7 @@ Make the character jump up and land back in the same place.
 >
 > Select the character sprite. Add a new script that makes it glide upwards when the player presses the space key.
 >
-> ![Giga Walking sprite.](images/Giga-Walk1.png){:width="100px" height="100px" style="object-fit: contain;"}
+> ![Pico sprite.](images/Pico-a.png){:width="100px" height="100px" style="object-fit: contain;"}
 >
 > ```blocks3
 > +when [space v] key pressed
@@ -19,7 +19,7 @@ Make the character jump up and land back in the same place.
 >
 > Add another glide block to make the character land.
 >
-> ![Giga Walking sprite.](images/Giga-Walk1.png){:width="100px" height="100px" style="object-fit: contain;"}
+> ![Pico sprite.](images/Pico-a.png){:width="100px" height="100px" style="object-fit: contain;"}
 >
 > ```blocks3
 > when [space v] key pressed

@@ -14,7 +14,7 @@ Start a fresh Scratch project and add a character sprite and a backdrop.
 
 > [!TASK]
 >
-> Add any character with **Choose a Sprite**. This example uses `Giga Walking`, but you can choose how you would like your character to look.
+> Add any character with **Choose a Sprite**. This example uses `Pico`, but you can choose how you would like your character to look.
 >
 > ![The Choose a Sprite button in the bottom-right of the Scratch editor.](images/sprite-choose.png)
 
@@ -28,7 +28,7 @@ Start a fresh Scratch project and add a character sprite and a backdrop.
 >
 > Place the character near the bottom of the Stage.
 >
-> ![Giga Walking sprite.](images/Giga-Walk1.png){:width="100px" height="100px" style="object-fit: contain;"}
+> ![Pico sprite.](images/Pico-a.png){:width="100px" height="100px" style="object-fit: contain;"}
 
 > [!TASK]
 >

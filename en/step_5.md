@@ -15,9 +15,9 @@ Make lots of obstacles appear and move towards the character.
 > +hide
 > +wait (1) seconds
 > +forever
-> +  create clone of (myself v)
-> +  wait (1) seconds
-> +end
+>   create clone of (myself v)
+>   wait (1) seconds
+> end
 > ```
 >
 > A **clone** is a copy of a sprite. The original obstacle stays hidden so that only its copies appear.
@@ -36,7 +36,7 @@ Make lots of obstacles appear and move towards the character.
 >
 > Drag a `when I start as a clone`{:class="block3control"} block to prepare each new clone.
 >
-> ![Bear-walking sprite.](images/Bear-walk-a.png){:width="100px" height="100px" style="object-fit: contain;"}
+> ![Dinosaur5 sprite.](images/Dinosaur5-a.png){:width="100px" height="100px" style="object-fit: contain;"}
 >
 > ```blocks3
 > +when I start as a clone
@@ -74,8 +74,8 @@ Make lots of obstacles appear and move towards the character.
 > when I start as a clone
 > show
 > +repeat until <(x position) < (-200)>
-> +  change x by (speed)
-> +end
+>   change x by (speed)
+> end
 > +delete this clone
 > ```
 >

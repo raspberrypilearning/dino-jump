@@ -4,13 +4,13 @@ Create an obstacle sprite that your character needs to jump over.
 
 > [!TASK]
 >
-> Choose any sprite to be an obstacle. This example uses `Bear-walking`, which has several costumes for a walking animation. You can choose your obstacle and what it looks like.
+> Choose any sprite to be an obstacle. This example uses `Dinosaur5`, which has several costumes so it can animate as it moves. You can choose your obstacle and what it looks like.
 
 > [!TASK]
 >
 > Select the obstacle and click the **Code** tab. Add these blocks to set its position, direction, and size.
 >
-> ![Bear-walking sprite.](images/Bear-walk-a.png){:width="100px" height="100px" style="object-fit: contain;"}
+> ![Dinosaur5 sprite.](images/Dinosaur5-a.png){:width="100px" height="100px" style="object-fit: contain;"}
 >
 > ```blocks3
 > +when green flag clicked

@@ -4,7 +4,7 @@ End the game when an obstacle touches the character, and award a point when the 
 
 > [!TASK]
 >
-> Add an `if`{:class="block3control"} block to check whether the obstacle is touching the character. Choose your character's name from the `touching`{:class="block3sensing"} menu. The example uses `Giga Walking`.
+> Add an `if`{:class="block3control"} block to check whether the obstacle is touching the character. Choose your character's name from the `touching`{:class="block3sensing"} menu. The example uses `Pico`.
 >
 > ```blocks3
 > when I start as a clone
@@ -12,17 +12,17 @@ End the game when an obstacle touches the character, and award a point when the 
 > repeat until <(x position) < (-200)>
 >   next costume
 >   change x by (speed)
-> +  if <touching (Giga Walking v)?> then
-> +    hide
-> +    stop [all v]
-> +  end
+> +  if <touching (Pico v)?> then
+>     hide
+>     stop [all v]
+>   end
 > end
 > delete this clone
 > ```
 
 > [!TASK]
 >
-> Select the obstacle. Open the **Sounds** tab, choose **Choose a Sound**, and add a collision sound. This example uses `Bite`, but you can choose any sound.
+> Select the obstacle and open the **Sounds** tab. `Dinosaur5` already includes the `bite` sound. You can use it, or choose **Choose a Sound** to add a different collision sound.
 >
 > ![The Sounds tab at the top-left of the Scratch editor.](images/sounds_tab.png)
 
@@ -31,8 +31,8 @@ End the game when an obstacle touches the character, and award a point when the 
 > Add the sound inside the `if`{:class="block3control"} block, before `hide`{:class="block3looks"}.
 >
 > ```blocks3
-> if <touching (Giga Walking v)?> then
-> +  start sound (Bite v)
+> if <touching (Pico v)?> then
+> +  start sound (bite v)
 >   hide
 >   stop [all v]
 > end
@@ -70,8 +70,8 @@ End the game when an obstacle touches the character, and award a point when the 
 > repeat until <(x position) < (-200)>
 >   next costume
 >   change x by (speed)
->   if <touching (Giga Walking v)?> then
->     start sound (Bite v)
+>   if <touching (Pico v)?> then
+>     start sound (bite v)
 >     hide
 >     stop [all v]
 >   end
