@@ -46,7 +46,7 @@ Start a fresh Scratch project and add a character sprite and a backdrop.
 
 > [!TIP]
 >
-> This is your **starting state**. It resets when you click the green flag before the game begins.
+> This is your **starting state**. It resets when you click the green flag before the game begins. Adjust the starting state numbers so that you are happy with them. The example numbers are for Pico. If you've used a different sprite, you may need different numbers.
 
 > [!TASK]
 >

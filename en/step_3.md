@@ -29,6 +29,10 @@ Make the character jump up and land back in the same place.
 >
 > The final `x` and `y` values must be the same as the character's starting position in the green flag script.
 
+> [!TIP]
+>
+> You will need to adjust the glide times and the glide height. Play around with different numbers to make sure your sprite jumps the way you want it to.
+
 > [!TASK]
 >
 > **Test your project.** The character should jump up and come back down when you press the space key.
