@@ -1,9 +1,7 @@
 title: Dino Jump
 hero_image: images/banner.png
-description: >-
-  Build a fast-paced jump game where a character leaps over obstacles and tries
-  to survive as long as possible.
-listed: false
+description: Make a jumping game in this Code Club Arcade project.
+listed: true
 pdf: false
 steps:
   - title: What you will make
