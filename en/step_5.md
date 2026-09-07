@@ -6,6 +6,8 @@ Make lots of obstacles appear and move towards the character.
 >
 > Extend the obstacle's green flag script with these blocks.
 >
+> ![Dinosaur5 sprite.](images/Dinosaur5-a.png){:width="100px" height="100px" style="object-fit: contain;"}
+>
 > ```blocks3
 > when green flag clicked
 > set rotation style [left-right v]
@@ -25,6 +27,8 @@ Make lots of obstacles appear and move towards the character.
 > [!TASK]
 >
 > Replace the `wait (1) seconds`{:class="block3control"} block inside the forever loop with this block from the `Operators`{:class="block3operators"} menu:
+>
+> ![Dinosaur5 sprite.](images/Dinosaur5-a.png){:width="100px" height="100px" style="object-fit: contain;"}
 >
 > ```blocks3
 > wait (pick random (0.8) to (2.4)) seconds
@@ -51,6 +55,8 @@ Make lots of obstacles appear and move towards the character.
 >
 > Set `speed`{:class="block3variables"} in the obstacle's green flag script. A negative value makes the clones move to the left.
 >
+> ![Dinosaur5 sprite.](images/Dinosaur5-a.png){:width="100px" height="100px" style="object-fit: contain;"}
+>
 > ```blocks3
 > when green flag clicked
 > set rotation style [left-right v]
@@ -70,6 +76,8 @@ Make lots of obstacles appear and move towards the character.
 >
 > Make each clone move until it passes the left side of the Stage. Drag in a `repeat until`{:class="block3control"} block, then add the `<`{:class="block3operators"} block from the `Operators`{:class="block3operators"} menu. Place `x position`{:class="block3motion"} on its left side.
 >
+> ![Dinosaur5 sprite.](images/Dinosaur5-a.png){:width="100px" height="100px" style="object-fit: contain;"}
+>
 > ```blocks3
 > when I start as a clone
 > show
@@ -84,6 +92,8 @@ Make lots of obstacles appear and move towards the character.
 > [!TASK]
 >
 > Add `next costume`{:class="block3looks"} inside the loop to animate the obstacle as it moves.
+>
+> ![Dinosaur5 sprite.](images/Dinosaur5-a.png){:width="100px" height="100px" style="object-fit: contain;"}
 >
 > ```blocks3
 > when I start as a clone

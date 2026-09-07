@@ -34,6 +34,8 @@ Start a fresh Scratch project and add a character sprite and a backdrop.
 >
 > Select the character and click the **Code** tab. Add these blocks to set its position, direction, and size.
 >
+> ![Pico sprite.](images/Pico-a.png){:width="100px" height="100px" style="object-fit: contain;"}
+>
 > ```blocks3
 > +when green flag clicked
 > +show

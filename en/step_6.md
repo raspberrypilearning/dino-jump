@@ -6,6 +6,8 @@ End the game when an obstacle touches the character, and award a point when the 
 >
 > Add an `if`{:class="block3control"} block to check whether the obstacle is touching the character. Choose your character's name from the `touching`{:class="block3sensing"} menu. The example uses `Pico`.
 >
+> ![Dinosaur5 sprite.](images/Dinosaur5-a.png){:width="100px" height="100px" style="object-fit: contain;"}
+>
 > ```blocks3
 > when I start as a clone
 > show
@@ -30,9 +32,11 @@ End the game when an obstacle touches the character, and award a point when the 
 >
 > Add the sound inside the `if`{:class="block3control"} block, before `hide`{:class="block3looks"}.
 >
+> ![Dinosaur5 sprite.](images/Dinosaur5-a.png){:width="100px" height="100px" style="object-fit: contain;"}
+>
 > ```blocks3
 > if <touching (Pico v)?> then
-> +  start sound (bite v)
+> +  play sound (bite v) until done
 >   hide
 >   stop [all v]
 > end
@@ -43,6 +47,8 @@ End the game when an obstacle touches the character, and award a point when the 
 > Open the `Variables`{:class="block3variables"} menu, select **Make a Variable**, and create a variable called `score`{:class="block3variables"} for all sprites.
 >
 > Set `score`{:class="block3variables"} to `0` in the obstacle's green flag script.
+>
+> ![Dinosaur5 sprite.](images/Dinosaur5-a.png){:width="100px" height="100px" style="object-fit: contain;"}
 >
 > ```blocks3
 > when green flag clicked
@@ -64,6 +70,8 @@ End the game when an obstacle touches the character, and award a point when the 
 >
 > Add `change score by 1`{:class="block3variables"} just before `delete this clone`{:class="block3control"}. It will only run when the obstacle reaches the left side without touching the character.
 >
+> ![Dinosaur5 sprite.](images/Dinosaur5-a.png){:width="100px" height="100px" style="object-fit: contain;"}
+>
 > ```blocks3
 > when I start as a clone
 > show
@@ -71,7 +79,7 @@ End the game when an obstacle touches the character, and award a point when the 
 >   next costume
 >   change x by (speed)
 >   if <touching (Pico v)?> then
->     start sound (bite v)
+>     play sound (bite v) until done
 >     hide
 >     stop [all v]
 >   end

@@ -13,11 +13,11 @@ Make the character jump up and land back in the same place.
 > +glide (0.3) secs to x: (-100) y: (80)
 > ```
 >
-> Use the same `x` position as the character's starting position. Choose a higher `y` position for the top of the jump. The example character starts at `x: -100`, `y: -70` and jumps to `y: 80`.
+> Don't change the `x` value.  Choose a higher `y` position for the top of the jump. Whatever your current `y` value is, add about `150` to it. (The example character starts at x: -100, y: -70 and jumps to y: 80.)
 
 > [!TASK]
 >
-> Add another glide block to make the character land.
+> Add another glide block to make the character land. Don't change the `x` and `y` values - they're already correct.
 >
 > ![Pico sprite.](images/Pico-a.png){:width="100px" height="100px" style="object-fit: contain;"}
 >
