@@ -1,6 +1,6 @@
 ## What you will make
 
-Build a **Dino Jump** game where a character jumps over obstacles.
+Build a **Dino Jump** game where Pico leaps over moving obstacles and scores a point for every one they avoid.
 
 Click the green flag to play, and press **space** to jump!
 

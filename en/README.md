@@ -15,12 +15,15 @@ en/
 │       └── project_config.yml
 ├── images/
 │   ├── .keep
+│   ├── Dinosaur5-a.png
+│   ├── Pico-a.png
 │   ├── backdrop-choose.png
 │   ├── banner.png
 │   ├── delete-sprite.png
 │   ├── make-a-variable.png
 │   ├── sounds_tab.png
 │   ├── sprite-choose.png
+│   ├── stage-pico-desert.png
 │   └── variable-checkbox.png
 ├── resources/
 │   └── .keep
@@ -41,11 +44,13 @@ en/
 
 ## What is in this project?
 
-The tutorials guide learners through building a simple Dino Jump game in Scratch, including:
+The tutorials guide learners through building a Dino Jump game in Scratch, including:
 
-- setting up the starting project
-- adding a character sprite and backdrop
-- making the character jump
-- adding obstacles
-- adding scoring and a game-over condition
-- customising and sharing the finished game
+- adding the Pico sprite and the Desert backdrop to a fresh Scratch project
+- setting a starting position, and making the character jump and land
+- adding an obstacle sprite and cloning it to make a stream of obstacles
+- moving, animating, and deleting the clones
+- detecting collisions, playing a collision sound, and keeping score
+- testing the game, tuning its difficulty, and making it your own
+
+The completed project is in both `code/dino-jump-complete/` and `solutions/`, and matches the blocks shown in the steps.

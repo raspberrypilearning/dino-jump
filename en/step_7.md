@@ -1,33 +1,32 @@
 ## Test and tune your game
 
-Check that the blocks work together, then change the difficulty so the game is easier or harder.
+Check that all your scripts work together, then choose how hard your game is to play.
 
 > [!TASK]
 >
-> Click the green flag and check that:
+> Click the green flag and make sure:
 >
 > - `score`{:class="block3variables"} starts at `0`
-> - animated obstacles appear after one second and move from right to left
+> - animated obstacles appear on the right and move towards Pico
 > - the time between obstacles changes
+> - pressing the space bar makes Pico jump and land
 > - avoiding an obstacle adds `1` to `score`{:class="block3variables"}
 > - touching an obstacle plays your collision sound and stops the game
+>
+> Fix any blocks that do not behave as expected, then play again.
 
 > [!TASK]
 >
-> Adjust the starting value of `speed`{:class="block3variables"} in the obstacle's green flag script. A more negative number, such as `-7`, makes every clone move faster.
+> **Change the speed.** Change the number in the `change x by ()`{:class="block3motion"} block in the clone script.
+>
+> A more negative number, such as `-7`, makes every obstacle move faster. A number closer to zero makes them move more slowly.
 
 > [!TASK]
 >
-> Adjust the two numbers in `pick random (0.8) to (2.4)`{:class="block3operators"}. Smaller numbers create obstacles more often, and larger numbers leave wider gaps.
-
-> [!TIP]
+> **Change the gaps.** Change the two numbers in `pick random () to ()`{:class="block3operators"}.
 >
-> Faster obstacles and shorter gaps give the player less time to react, making the game more difficult.
+> Smaller numbers create obstacles more often, while larger numbers leave wider gaps.
 
 > [!TASK]
 >
-> If the obstacle does not meet the character at the right height, adjust its starting `y` position. Keep its starting `x` position beyond the right edge so obstacles do not suddenly appear on the Stage.
-
-> [!TASK]
->
-> **Test again** until the game is hard but you are still able to play it.
+> **Test again.** Play the game a few times and keep adjusting the numbers until your game feels fair.

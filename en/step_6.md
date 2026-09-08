@@ -1,65 +1,68 @@
 ## Detect collisions and keep score
 
-End the game when an obstacle touches the character, and award a point when the character avoids one.
+End the game when an obstacle catches Pico, and award a point whenever an obstacle passes Pico safely.
 
 > [!TASK]
 >
-> Add an `if`{:class="block3control"} block to check whether the obstacle is touching the character. Choose your character's name from the `touching`{:class="block3sensing"} menu. The example uses `Pico`.
+> Inside the clone's movement loop, add an `if then`{:class="block3control"} block that checks whether the obstacle is `touching ()`{:class="block3sensing"} Pico.
+>
+> If it is, stop all the scripts.
 >
 > ![Dinosaur5 sprite.](images/Dinosaur5-a.png){:width="100px" height="100px" style="object-fit: contain;"}
 >
 > ```blocks3
-> when I start as a clone
-> show
-> repeat until <(x position) < (-200)>
+> repeat until <(x position) < (-240)>
 >   next costume
->   change x by (speed)
+>   change x by (-5)
 > +  if <touching (Pico v)?> then
->     hide
 >     stop [all v]
 >   end
 > end
-> delete this clone
 > ```
 
 > [!TASK]
 >
-> Select the obstacle and open the **Sounds** tab. `Dinosaur5` already includes the `bite` sound. You can use it, or choose **Choose a Sound** to add a different collision sound.
+> Click on the `Dinosaur5`{:class="block3looks"} sprite, then open the `Sounds`{:class="block3sound"} tab.
+>
+> `Dinosaur5` already includes the `bite`{:class="block3sound"} sound. You can use it, or choose a different collision sound.
 >
 > ![The Sounds tab at the top-left of the Scratch editor.](images/sounds_tab.png)
 
 > [!TASK]
 >
-> Add the sound inside the `if`{:class="block3control"} block, before `hide`{:class="block3looks"}.
+> Add a `play sound () until done`{:class="block3sound"} block inside the collision check, before `stop all`{:class="block3control"}.
 >
 > ![Dinosaur5 sprite.](images/Dinosaur5-a.png){:width="100px" height="100px" style="object-fit: contain;"}
 >
 > ```blocks3
 > if <touching (Pico v)?> then
 > +  play sound (bite v) until done
->   hide
 >   stop [all v]
 > end
 > ```
 
 > [!TASK]
 >
-> Open the `Variables`{:class="block3variables"} menu, select **Make a Variable**, and create a variable called `score`{:class="block3variables"} for all sprites.
+> Make a new variable called `score`{:class="block3variables"}, **For all sprites**.
 >
-> Set `score`{:class="block3variables"} to `0` in the obstacle's green flag script.
+> ![The Make a Variable button in the Variables menu.](images/make-a-variable.png)
+>
+> Keep its checkbox ticked, so the variable appears on the Stage.
+>
+> ![A ticked variable checkbox in the Variables menu.](images/variable-checkbox.png)
+
+> [!TASK]
+>
+> In the obstacle's setup script, set `score`{:class="block3variables"} to `0` when the green flag is clicked.
 >
 > ![Dinosaur5 sprite.](images/Dinosaur5-a.png){:width="100px" height="100px" style="object-fit: contain;"}
 >
 > ```blocks3
 > when green flag clicked
-> set rotation style [left-right v]
-> set [speed v] to (-5)
 > +set [score v] to (0)
 > set size to (25) %
 > go to x: (280) y: (-85)
-> point in direction (-90)
 > hide
-> wait (1) seconds
 > forever
 >   create clone of (myself v)
 >   wait (pick random (0.8) to (2.4)) seconds
@@ -68,26 +71,27 @@ End the game when an obstacle touches the character, and award a point when the 
 
 > [!TASK]
 >
-> Add `change score by 1`{:class="block3variables"} just before `delete this clone`{:class="block3control"}. It will only run when the obstacle reaches the left side without touching the character.
+> In the clone script, add `change score by ()`{:class="block3variables"} after the movement loop and before `delete this clone`{:class="block3control"}.
 >
 > ![Dinosaur5 sprite.](images/Dinosaur5-a.png){:width="100px" height="100px" style="object-fit: contain;"}
 >
 > ```blocks3
 > when I start as a clone
 > show
-> repeat until <(x position) < (-200)>
+> repeat until <(x position) < (-240)>
 >   next costume
->   change x by (speed)
+>   change x by (-5)
 >   if <touching (Pico v)?> then
 >     play sound (bite v) until done
->     hide
 >     stop [all v]
 >   end
 > end
 > +change [score v] by (1)
 > delete this clone
 > ```
+>
+> The new block only runs after an obstacle reaches the left edge without touching Pico.
 
 > [!TASK]
 >
-> **Test your project.** Avoiding an obstacle should add one to `score`{:class="block3variables"}. Touching one should play the collision sound and stop the game.
+> **Test your project.** Avoiding an obstacle should add `1` to `score`{:class="block3variables"}. Touching one should play your collision sound and stop the game.

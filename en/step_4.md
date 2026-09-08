@@ -1,23 +1,31 @@
 ## Add obstacles
 
-Create an obstacle sprite that your character needs to jump over.
+Create something for Pico to jump over.
 
 > [!TASK]
 >
-> Choose any sprite to be an obstacle. This example uses `Dinosaur5`, which has several costumes so it can animate as it moves. You can choose your obstacle and what it looks like.
+> Click **Choose a Sprite**, then find `Dinosaur5`{:class="block3looks"} in the sprite library and click on it.
+>
+> ![Dinosaur5 sprite.](images/Dinosaur5-a.png)
+>
+> Dinosaur5 has several costumes, so it can animate as it moves.
 
 > [!TASK]
 >
-> Select the obstacle and click the **Code** tab. Add these blocks to set its position, direction, and size.
+> Click on the `Dinosaur5`{:class="block3looks"} sprite, then click the **Code** tab.
+>
+> Add a script to set its size and position.
 >
 > ![Dinosaur5 sprite.](images/Dinosaur5-a.png){:width="100px" height="100px" style="object-fit: contain;"}
 >
 > ```blocks3
 > +when green flag clicked
-> +set rotation style [left-right v]
 > +set size to (25) %
 > +go to x: (280) y: (-85)
-> +point in direction (-90)
 > ```
+
+> [!TASK]
 >
-> The example position puts the obstacle just beyond the right edge of the Stage. Change the `y` position if your obstacle does not sit on the ground.
+> **Test your project.** Click the green flag.
+>
+> The obstacle shrinks and moves to the right edge of the Stage, ready to travel towards Pico.

@@ -1,110 +1,92 @@
 ## Make the obstacles move
 
-Make lots of obstacles appear and move towards the character.
+Make a stream of obstacles appear and travel across the Stage towards Pico.
 
 > [!TASK]
 >
-> Extend the obstacle's green flag script with these blocks.
+> Add a `forever`{:class="block3control"} loop to the end of the obstacle's script. Inside the loop, create a clone and wait for one second before making the next one.
+>
+> Add a `hide`{:class="block3looks"} block before the loop, so that only the clones appear in the game.
 >
 > ![Dinosaur5 sprite.](images/Dinosaur5-a.png){:width="100px" height="100px" style="object-fit: contain;"}
 >
 > ```blocks3
 > when green flag clicked
-> set rotation style [left-right v]
 > set size to (25) %
 > go to x: (280) y: (-85)
-> point in direction (-90)
 > +hide
-> +wait (1) seconds
 > +forever
 >   create clone of (myself v)
 >   wait (1) seconds
 > end
 > ```
 >
-> A **clone** is a copy of a sprite. The original obstacle stays hidden so that only its copies appear.
+> A **clone** is a copy of a sprite. Each clone starts hidden, because the original obstacle is hidden.
 
 > [!TASK]
 >
-> Replace the `wait (1) seconds`{:class="block3control"} block inside the forever loop with this block from the `Operators`{:class="block3operators"} menu:
+> Start a new script on the obstacle sprite with a `when I start as a clone`{:class="block3control"} block.
 >
-> ![Dinosaur5 sprite.](images/Dinosaur5-a.png){:width="100px" height="100px" style="object-fit: contain;"}
->
-> ```blocks3
-> wait (pick random (0.8) to (2.4)) seconds
-> ```
->
-> The first clone is made after one second. After that, clones are created at random intervals that you choose.
-
-> [!TASK]
->
-> Drag a `when I start as a clone`{:class="block3control"} block to prepare each new clone.
+> Add a `show`{:class="block3looks"} block, then a `repeat until`{:class="block3control"} loop that checks whether the clone's `x position`{:class="block3motion"} is less than `-240`. Inside the loop, change its x position by `-5`.
 >
 > ![Dinosaur5 sprite.](images/Dinosaur5-a.png){:width="100px" height="100px" style="object-fit: contain;"}
 >
 > ```blocks3
 > +when I start as a clone
 > +show
-> ```
-
-> [!TASK]
->
-> Open the `Variables`{:class="block3variables"} menu, select **Make a Variable**, and create a variable called `speed`{:class="block3variables"} for all sprites. Untick the checkbox beside `speed`{:class="block3variables"} so it is hidden on the Stage.
->
-> ![The Make a Variable button in the Variables menu.](images/make-a-variable.png)
->
-> Set `speed`{:class="block3variables"} in the obstacle's green flag script. A negative value makes the clones move to the left.
->
-> ![Dinosaur5 sprite.](images/Dinosaur5-a.png){:width="100px" height="100px" style="object-fit: contain;"}
->
-> ```blocks3
-> when green flag clicked
-> set rotation style [left-right v]
-> +set [speed v] to (-5)
-> set size to (25) %
-> go to x: (280) y: (-85)
-> point in direction (-90)
-> hide
-> wait (1) seconds
-> forever
->   create clone of (myself v)
->   wait (pick random (0.8) to (2.4)) seconds
+> +repeat until <(x position) < (-240)>
+>   change x by (-5)
 > end
 > ```
+>
+> A negative number in `change x by ()`{:class="block3motion"} moves the clone to the left.
 
 > [!TASK]
 >
-> Make each clone move until it passes the left side of the Stage. Drag in a `repeat until`{:class="block3control"} block, then add the `<`{:class="block3operators"} block from the `Operators`{:class="block3operators"} menu. Place `x position`{:class="block3motion"} on its left side.
+> Add `delete this clone`{:class="block3control"} after the movement loop, so that old obstacles do not build up.
 >
 > ![Dinosaur5 sprite.](images/Dinosaur5-a.png){:width="100px" height="100px" style="object-fit: contain;"}
 >
 > ```blocks3
 > when I start as a clone
 > show
-> +repeat until <(x position) < (-200)>
->   change x by (speed)
+> repeat until <(x position) < (-240)>
+>   change x by (-5)
 > end
 > +delete this clone
 > ```
->
-> `delete this clone`{:class="block3control"} removes each copy after it leaves the Stage so that clones do not build up.
 
 > [!TASK]
 >
-> Add `next costume`{:class="block3looks"} inside the loop to animate the obstacle as it moves.
+> In the obstacle's `forever`{:class="block3control"} loop, replace the `wait () seconds`{:class="block3control"} block with one that contains a `pick random () to ()`{:class="block3operators"} block.
+>
+> ![Dinosaur5 sprite.](images/Dinosaur5-a.png){:width="100px" height="100px" style="object-fit: contain;"}
+>
+> ```blocks3
+> forever
+>   create clone of (myself v)
+> +  wait (pick random (0.8) to (2.4)) seconds
+> end
+> ```
+>
+> Obstacles now appear at random intervals between the two numbers you chose.
+
+> [!TASK]
+>
+> Inside the clone's `repeat until`{:class="block3control"} loop, add a `next costume`{:class="block3looks"} block before the movement block.
 >
 > ![Dinosaur5 sprite.](images/Dinosaur5-a.png){:width="100px" height="100px" style="object-fit: contain;"}
 >
 > ```blocks3
 > when I start as a clone
 > show
-> repeat until <(x position) < (-200)>
+> repeat until <(x position) < (-240)>
 > +  next costume
->   change x by (speed)
+>   change x by (-5)
 > end
 > delete this clone
 > ```
 
 > [!TASK]
 >
-> **Test your project.** Obstacles should appear at different times and move from right to left.
+> **Test your project.** Obstacles should appear at different times, change costume as they travel, and disappear once they have passed Pico.

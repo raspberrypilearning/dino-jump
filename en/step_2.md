@@ -1,6 +1,6 @@
 ## Add the character and backdrop
 
-Start a fresh Scratch project and add a character sprite and a backdrop.
+Add your character and choose where your jumping game will take place.
 
 > [!TASK]
 >
@@ -8,48 +8,51 @@ Start a fresh Scratch project and add a character sprite and a backdrop.
 
 > [!TASK]
 >
-> Delete the cat sprite.
+> Delete the cat sprite, so that you start with an empty Stage.
 >
 > ![Deleting a sprite with the bin icon on its thumbnail.](images/delete-sprite.png)
 
 > [!TASK]
 >
-> Add any character with **Choose a Sprite**. This example uses `Pico`, but you can choose how you would like your character to look.
+> Click **Choose a Sprite**.
 >
 > ![The Choose a Sprite button in the bottom-right of the Scratch editor.](images/sprite-choose.png)
+>
+> Find `Pico`{:class="block3looks"} in the sprite library and click on it.
+>
+> ![The Pico sprite in the Scratch sprite library.](images/Pico-a.png)
+>
+> Pico appears on the Stage.
 
 > [!TASK]
 >
-> Add any backdrop with **Choose a Backdrop**. This example uses `Desert`, but choose a setting that suits your game.
+> Click **Choose a Backdrop**.
 >
 > ![The Choose a Backdrop button in the bottom-right of the Scratch editor.](images/backdrop-choose.png)
+>
+> Find `Desert`{:class="block3looks"} in the backdrop library and click on it.
+>
+> Your Stage now shows Pico in the desert.
+>
+> ![Pico standing on the Desert backdrop on the Stage.](images/stage-pico-desert.png)
+>
+> Pico might be in a different place on your Stage. You'll set its starting position next.
 
 > [!TASK]
 >
-> Place the character near the bottom of the Stage.
+> Click on the `Pico`{:class="block3looks"} sprite, then click the **Code** tab.
 >
-> ![Pico sprite.](images/Pico-a.png){:width="100px" height="100px" style="object-fit: contain;"}
-
-> [!TASK]
->
-> Select the character and click the **Code** tab. Add these blocks to set its position, direction, and size.
+> Add a script to place Pico near the bottom-left of the Stage.
 >
 > ![Pico sprite.](images/Pico-a.png){:width="100px" height="100px" style="object-fit: contain;"}
 >
 > ```blocks3
 > +when green flag clicked
-> +show
 > +go to x: (-100) y: (-70)
-> +point in direction (90)
-> +set size to (100) %
 > ```
->
-> These values place the example character near the ground. Adjust the position and size if your character or backdrop is different.
-
-> [!TIP]
->
-> This is your **starting state**. It resets when you click the green flag before the game begins. Adjust the starting state numbers so that you are happy with them. The example numbers are for Pico. If you've used a different sprite, you may need different numbers.
 
 > [!TASK]
 >
-> **Test your project.** The character should appear in the same place each time you click the green flag.
+> **Test your project.** Click the green flag, drag Pico to a different place on the Stage, then click the green flag again.
+>
+> Pico goes back to its starting position.

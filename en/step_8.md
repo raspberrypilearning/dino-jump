@@ -1,21 +1,31 @@
 ## Challenge
 
-Take your game further by changing its look and behaviour.
+You've finished the game — now make it your own!
+
+Choose an idea to try.
 
 > [!TASK]
 >
-> Personalise any choices you borrowed from the example. Your character, obstacle, and backdrop can all be different.
+> Change the character, obstacle, or backdrop to give your game a new theme.
 
 > [!TASK]
 >
-> Make the game harder by making the obstacle move faster as the `score`{:class="block3variables"} increases.
+> Change the glide times or the height of the jump to make Pico jump differently.
 
 > [!TASK]
 >
-> Add a sound or animation when the character jumps or crashes.
+> Move the obstacles higher or lower by changing their starting `y` position.
 
 > [!TASK]
 >
-> Share your finished game with a friend and ask them what they think.
+> Make the obstacles move faster as `score`{:class="block3variables"} increases.
+
+> [!TASK]
+>
+> Add a sound or costume animation when the character jumps.
+
+> [!TASK]
+>
+> Add a game-over backdrop before the scripts stop.
 
 > [!SAVE]
