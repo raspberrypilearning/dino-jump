@@ -6,8 +6,9 @@ Click the green flag to play, and press **space** to jump!
 
 > [!NOPRINT]
 >
-> <div class="scratch-preview">
->  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/1351632733/?autostart=false" frameborder="0"></iframe>
+> <div class="c-project-output">
+>   <iframe src="https://editor.raspberrypi.org/en/embed/viewer/editor-dino-jump-complete" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
+>   </iframe>
 > </div>
 
 > [!PRINTONLY]
