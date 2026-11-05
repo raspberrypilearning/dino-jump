@@ -1,0 +1,4 @@
+name: "Début saut de dino"
+identifier: "dino-jump-starter"
+type: 'code_editor_scratch'
+build: true

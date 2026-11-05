@@ -1,0 +1,21 @@
+title: Dino jump
+hero_image: images/banner.png
+description: Make a jumping game in this Code Club arcade project.
+listed: true
+pdf: resources/dino-jump.pdf
+steps:
+  - title: Wat ga je maken
+  - title: Add the character and backdrop
+    completion:
+      - engaged
+  - title: Make the character jump
+  - title: Add obstacles
+  - title: Make the obstacles move
+  - title: Detect collisions and keep score
+  - title: Test and tune your game
+    completion:
+      - internal
+  - title: Uitdaging
+    challenge: true
+    completion:
+      - external
