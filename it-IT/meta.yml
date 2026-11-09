@@ -1,0 +1,21 @@
+title: Dino Jump
+hero_image: images/banner.png
+description: Realizza un gioco con salti in questo progetto arcade di Code Club.
+listed: true
+pdf: resources/dino-jump.pdf
+steps:
+  - title: Cosa creerai
+  - title: Aggiungi il personaggio e lo sfondo
+    completion:
+      - engaged
+  - title: Fai saltare il personaggio
+  - title: Aggiungi degli ostacoli
+  - title: Fai muovere gli ostacoli
+  - title: Rileva le collisioni e tieni il punteggio
+  - title: Metti alla prova e perfeziona il tuo gioco
+    completion:
+      - internal
+  - title: Sfida
+    challenge: true
+    completion:
+      - external
