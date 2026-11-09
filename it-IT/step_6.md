@@ -15,7 +15,7 @@ Termina il gioco quando un ostacolo tocca Pico e assegna un punto ogni volta che
 >   next costume
 >   change x by (-5)
 > +  if <touching (Pico v)?> then
->     stop [all v]
+>     stop [tutto v]
 >   end
 > end
 > ```
@@ -37,7 +37,7 @@ Termina il gioco quando un ostacolo tocca Pico e assegna un punto ogni volta che
 > ```blocks3
 > if <touching (Pico v)?> then
 > +  play sound (bite v) until done
->   stop [all v]
+>   stop [tutto v]
 > end
 > ```
 
@@ -59,12 +59,12 @@ Termina il gioco quando un ostacolo tocca Pico e assegna un punto ogni volta che
 >
 > ```blocks3
 > when green flag clicked
-> +set [score v] to (0)
+> +set [punteggio v] to (0)
 > set size to (25) %
 > go to x: (280) y: (-85)
 > hide
 > forever
->   create clone of (myself v)
+>   create clone of (me stesso v)
 >   wait (pick random (0.8) to (2.4)) seconds
 > end
 > ```
@@ -83,10 +83,10 @@ Termina il gioco quando un ostacolo tocca Pico e assegna un punto ogni volta che
 >   change x by (-5)
 >   if <touching (Pico v)?> then
 >     play sound (bite v) until done
->     stop [all v]
+>     stop [tutto v]
 >   end
 > end
-> +change [score v] by (1)
+> +change [punteggio v] by (1)
 > delete this clone
 > ```
 >
@@ -94,4 +94,4 @@ Termina il gioco quando un ostacolo tocca Pico e assegna un punto ogni volta che
 
 > [!TASK]
 >
-> **Prova il tuo progetto.** Evitare un ostacolo dovrebbe aggiungere `1` allo `score`{:class="block3variables"}. Toccandone uno, dovrebbe essere riprodotto il suono di collisione e il gioco dovrebbe interrompersi.
+> **Prova il tuo progetto.** Evitare un ostacolo dovrebbe aggiungere `1` allo `punteggio`{:class="block3variables"}. Toccandone uno, dovrebbe essere riprodotto il suono di collisione e il gioco dovrebbe interrompersi.
