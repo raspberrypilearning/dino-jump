@@ -4,7 +4,7 @@ La partie s'arrête lorsqu'un obstacle touche Pico. Gagne un point chaque fois q
 
 > [!TASK]
 >
-> Dans la boucle de mouvement du clone, ajoute un bloc `si alors`{:class="block3control"} qui vérifie si l'obstacle touche ()\`{:class="block3sensing"} Pico.
+> Dans la boucle de mouvement du clone, ajoute un bloc `si alors`{:class="block3control"} qui vérifie si l'obstacle touche ()`{:class="block3sensing"} Pico.
 >
 > Si c'est le cas, arrête tous les scripts.
 >
