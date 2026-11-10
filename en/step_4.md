@@ -8,7 +8,7 @@ Create something for Pico to jump over.
 >
 > ![Dinosaur5 sprite.](images/Dinosaur5-a.png)
 >
-> Dinosaur5 has several costumes, so it can animate as it moves.
+> `Dinosaur5` has several costumes, so it can animate as it moves.
 
 > [!TASK]
 >
