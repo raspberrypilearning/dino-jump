@@ -1,0 +1,22 @@
+---
+title: Saute-Dino
+hero_image: images/banner.png
+description: Crée un jeu de saut dans ce projet d'arcade Code Club.
+listed: true
+pdf: resources/dino-jump.pdf
+steps:
+  - title: Ce que tu vas faire
+  - title: Ajouter le personnage et l'arrière-plan
+    completion:
+      - engaged
+  - title: Faire sauter le personnage
+  - title: Ajouter des obstacles
+  - title: Faire bouger les obstacles
+  - title: Détecter les collisions et garder le score
+  - title: Tester et ajuster ton jeu
+    completion:
+      - internal
+  - title: Défi
+    challenge: true
+    completion:
+      - external
