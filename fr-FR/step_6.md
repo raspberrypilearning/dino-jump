@@ -15,7 +15,7 @@ La partie s'arrête lorsqu'un obstacle touche Pico. Gagne un point chaque fois q
 >   next costume
 >   change x by (-5)
 > +  if <touching (Pico v)?> then
->     stop [all v]
+>     stop [tout v]
 >   end
 > end
 > ```
@@ -64,7 +64,7 @@ La partie s'arrête lorsqu'un obstacle touche Pico. Gagne un point chaque fois q
 > go to x: (280) y: (-85)
 > hide
 > forever
->   create clone of (myself v)
+>   create clone of (moi-même v)
 >   wait (pick random (0.8) to (2.4)) seconds
 > end
 > ```
@@ -83,7 +83,7 @@ La partie s'arrête lorsqu'un obstacle touche Pico. Gagne un point chaque fois q
 >   change x by (-5)
 >   if <touching (Pico v)?> then
 >     play sound (bite v) until done
->     stop [all v]
+>     stop [tout v]
 >   end
 > end
 > +change [score v] by (1)
