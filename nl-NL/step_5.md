@@ -73,7 +73,7 @@ Laat een reeks obstakels verschijnen en bewegen over het speelveld richting Pico
 
 > [!TASK]
 >
-> Voeg binnen de `herhaal tot`{:class="block3control"} lus van de kloon een `volgend uiterlijk `{:class="block3looks"} blok toe vóór het bewegingsblok.
+> Voeg binnen de `herhaal tot`{:class="block3control"} lus van de kloon een `volgend uiterlijk`{:class="block3looks"} blok toe vóór het bewegingsblok.
 >
 > ![Dinosaur5 sprite.](images/Dinosaur5-a.png){:width="100px" height="100px" style="object-fit: contain;"}
 >
