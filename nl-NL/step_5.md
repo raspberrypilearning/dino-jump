@@ -16,7 +16,7 @@ Laat een reeks obstakels verschijnen en bewegen over het speelveld richting Pico
 > go to x: (280) y: (-85)
 > +hide
 > +forever
->   create clone of (myself v)
+>   create clone of (mijzelf v)
 >   wait (1) seconds
 > end
 > ```
@@ -64,7 +64,7 @@ Laat een reeks obstakels verschijnen en bewegen over het speelveld richting Pico
 >
 > ```blocks3
 > forever
->   create clone of (myself v)
+>   create clone of (mijzelf v)
 > +  wait (pick random (0.8) to (2.4)) seconds
 > end
 > ```

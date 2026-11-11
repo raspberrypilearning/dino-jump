@@ -15,7 +15,7 @@ Beëindig het spel wanneer Pico op een obstakel botst en geef een punt wanneer P
 >   next costume
 >   change x by (-5)
 > +  if <touching (Pico v)?> then
->     stop [all v]
+>     stop [alle v]
 >   end
 > end
 > ```
@@ -37,7 +37,7 @@ Beëindig het spel wanneer Pico op een obstakel botst en geef een punt wanneer P
 > ```blocks3
 > if <touching (Pico v)?> then
 > +  play sound (bite v) until done
->   stop [all v]
+>   stop [alle v]
 > end
 > ```
 
@@ -64,7 +64,7 @@ Beëindig het spel wanneer Pico op een obstakel botst en geef een punt wanneer P
 > go to x: (280) y: (-85)
 > hide
 > forever
->   create clone of (myself v)
+>   create clone of (mijzelf v)
 >   wait (pick random (0.8) to (2.4)) seconds
 > end
 > ```
@@ -83,7 +83,7 @@ Beëindig het spel wanneer Pico op een obstakel botst en geef een punt wanneer P
 >   change x by (-5)
 >   if <touching (Pico v)?> then
 >     play sound (bite v) until done
->     stop [all v]
+>     stop [alle v]
 >   end
 > end
 > +change [score v] by (1)

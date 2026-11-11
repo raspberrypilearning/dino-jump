@@ -8,7 +8,7 @@ Maak iets waar Pico overheen kan springen.
 >
 > ![Dinosaur5 sprite.](images/Dinosaur5-a.png)
 >
-> Dinosaur5 heeft verschillende uiterlijken, dus je kan hem laten bewegen met animatie.
+> `Dinosaur5`{:class="block3looks"} heeft verschillende uiterlijken, dus je kan hem laten bewegen met animatie.
 
 > [!TASK]
 >
