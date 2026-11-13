@@ -1,0 +1,22 @@
+---
+title: Ontwijk de Dino
+hero_image: images/banner.png
+description: Maak een springspel in dit Code Club arcade-project.
+listed: true
+pdf: resources/dino-jump.pdf
+steps:
+  - title: Wat ga je maken
+  - title: Voeg het personage en de achtergrond toe
+    completion:
+      - engaged
+  - title: Laat het personage springen
+  - title: Voeg obstakels toe
+  - title: Laat de obstakels bewegen
+  - title: Detecteer botsingen en houd de score bij
+  - title: Test en pas je spel aan
+    completion:
+      - internal
+  - title: Uitdaging
+    challenge: true
+    completion:
+      - external
