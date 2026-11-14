@@ -9,7 +9,7 @@ Fais sauter Pico en l'air et fais-le retomber au même endroit.
 > ![Sprite Pico.](images/Pico-a.png){:width="100px" height="100px" style="object-fit: contain;"}
 >
 > ```blocks3
-> +when [espace v] key pressed
+> +when [space v] key pressed
 > +glide (0.3) secs to x: (-100) y: (80)
 > ```
 >
@@ -22,7 +22,7 @@ Fais sauter Pico en l'air et fais-le retomber au même endroit.
 > ![Sprite Pico.](images/Pico-a.png){:width="100px" height="100px" style="object-fit: contain;"}
 >
 > ```blocks3
-> when [espace v] key pressed
+> when [space v] key pressed
 > glide (0.3) secs to x: (-100) y: (80)
 > +glide (0.7) secs to x: (-100) y: (-70)
 > ```

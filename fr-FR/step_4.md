@@ -8,7 +8,7 @@ Crée quelque chose pour que Pico saute au-dessus.
 >
 > ![Sprite Dinosaur5.](images/Dinosaur5-a.png)
 >
-> `Dinosaur5`{:class="block3looks"} possède plusieurs costumes, ce qui lui permet de s'animer lorsqu'il se déplace.
+> Dinosaur5 possède plusieurs costumes, ce qui lui permet de s'animer lorsqu'il se déplace.
 
 > [!TASK]
 >

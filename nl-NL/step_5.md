@@ -16,7 +16,7 @@ Laat een reeks obstakels verschijnen en bewegen over het speelveld richting Pico
 > go to x: (280) y: (-85)
 > +hide
 > +forever
->   create clone of (mijzelf v)
+>   create clone of (myself v)
 >   wait (1) seconds
 > end
 > ```
@@ -64,7 +64,7 @@ Laat een reeks obstakels verschijnen en bewegen over het speelveld richting Pico
 >
 > ```blocks3
 > forever
->   create clone of (mijzelf v)
+>   create clone of (myself v)
 > +  wait (pick random (0.8) to (2.4)) seconds
 > end
 > ```
@@ -73,7 +73,7 @@ Laat een reeks obstakels verschijnen en bewegen over het speelveld richting Pico
 
 > [!TASK]
 >
-> Voeg binnen de `herhaal tot`{:class="block3control"} lus van de kloon een `volgend uiterlijk`{:class="block3looks"} blok toe vóór het bewegingsblok.
+> Voeg binnen de `herhaal tot`{:class="block3control"} lus van de kloon een `volgend uiterlijk `{:class="block3looks"} blok toe vóór het bewegingsblok.
 >
 > ![Dinosaur5 sprite.](images/Dinosaur5-a.png){:width="100px" height="100px" style="object-fit: contain;"}
 >

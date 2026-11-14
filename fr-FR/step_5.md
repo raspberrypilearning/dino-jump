@@ -16,7 +16,7 @@ Faire apparaître un flot d'obstacles qui traverse la scène en direction de Pic
 > go to x: (280) y: (-85)
 > +hide
 > +forever
->   create clone of (moi-même v)
+>   create clone of (myself v)
 >   wait (1) seconds
 > end
 > ```
@@ -64,7 +64,7 @@ Faire apparaître un flot d'obstacles qui traverse la scène en direction de Pic
 >
 > ```blocks3
 > forever
->   create clone of (moi-même v)
+>   create clone of (myself v)
 > +  wait (pick random (0.8) to (2.4)) seconds
 > end
 > ```
