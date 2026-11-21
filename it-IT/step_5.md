@@ -16,7 +16,7 @@ Fai apparire un flusso di ostacoli che attraversano lo Stage verso Pico.
 > go to x: (280) y: (-85)
 > +hide
 > +forever
->   create clone of (me stesso v)
+>   create clone of (myself v)
 >   wait (1) seconds
 > end
 > ```
@@ -64,7 +64,7 @@ Fai apparire un flusso di ostacoli che attraversano lo Stage verso Pico.
 >
 > ```blocks3
 > forever
->   create clone of (me stesso v)
+>   create clone of (myself v)
 > +  wait (pick random (0.8) to (2.4)) seconds
 > end
 > ```
