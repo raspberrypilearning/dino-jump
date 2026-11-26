@@ -8,7 +8,7 @@ Crea qualcosa che Pico possa saltare.
 >
 > ![Sprite Dinosaur5.](images/Dinosaur5-a.png)
 >
-> `Dinosaur5`{:class="block3looks"} ha diversi costumi, quindi può animarsi mentre si muove.
+> Dinosaur5 ha diversi costumi, quindi può animarsi mentre si muove.
 
 > [!TASK]
 >
