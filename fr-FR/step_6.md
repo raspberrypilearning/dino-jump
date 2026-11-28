@@ -4,7 +4,7 @@ La partie s'arrête lorsqu'un obstacle touche Pico. Gagne un point chaque fois q
 
 > [!TASK]
 >
-> Dans la boucle de mouvement du clone, ajoute un bloc `si alors`{:class="block3control"} qui vérifie si l'obstacle `touche ()`{:class="block3sensing"} Pico.
+> Dans la boucle de mouvement du clone, ajoute un bloc `si alors`{:class="block3control"} qui vérifie si l'obstacle touche ()\`{:class="block3sensing"} Pico.
 >
 > Si c'est le cas, arrête tous les scripts.
 >
@@ -15,7 +15,7 @@ La partie s'arrête lorsqu'un obstacle touche Pico. Gagne un point chaque fois q
 >   next costume
 >   change x by (-5)
 > +  if <touching (Pico v)?> then
->     stop [tout v]
+>     stop [all v]
 >   end
 > end
 > ```
@@ -64,7 +64,7 @@ La partie s'arrête lorsqu'un obstacle touche Pico. Gagne un point chaque fois q
 > go to x: (280) y: (-85)
 > hide
 > forever
->   create clone of (moi-même v)
+>   create clone of (myself v)
 >   wait (pick random (0.8) to (2.4)) seconds
 > end
 > ```
@@ -83,7 +83,7 @@ La partie s'arrête lorsqu'un obstacle touche Pico. Gagne un point chaque fois q
 >   change x by (-5)
 >   if <touching (Pico v)?> then
 >     play sound (bite v) until done
->     stop [tout v]
+>     stop [all v]
 >   end
 > end
 > +change [score v] by (1)
